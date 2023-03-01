@@ -5,6 +5,8 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+    background-image: url(https://img.freepik.com/free-vector/white-abstract-background-design_23-2148825582.jpg?w=740&t=st=1677664637~exp=1677665237~hmac=dc802cc480995746af0cb527caaa38de3a257fa541d532120e3255d5f4c2c1f5);
+    background-size: 106%;
 }
 
 code {

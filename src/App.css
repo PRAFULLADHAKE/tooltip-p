@@ -1,38 +1,139 @@
-.App {
-  text-align: center;
+/*..here we give the dimension to the app..*/
+.App{
+  width: 100vw;
+  height: 100vh;
+
+
+
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
+/*..Navbar position button..*/
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.btn-position{
+  margin-left: 10%;
+  width: 80%;
+  margin-left: none;
+  height: 10%;
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  justify-content: space-between;
 }
 
-.App-link {
-  color: #61dafb;
+
+
+.grp-name{
+  margin-top: 30px;
+  font-style: Cursive;
+  font-weight: 600;
+  font-size: 30px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+/*..css of the all avilable button..*/
+
+.btn{
+  height: 60%;
+  margin-top: 1.1%;
+  width: 10%;
+  border: 3px solid rgb(8, 6, 6);
+  border-radius: 30px;
+  background: rgba(163, 230, 241, 0.2);
+}
+
+
+/*..css of the hover button container..*/
+
+#button-container{
+  width: 23%;
+  height: 15%;
+  margin-left: 40%;
+  margin-top: 15%;
+}
+
+
+/*..special feature added in the hover button...*/
+
+.hover-btn{
+  height: 100%;
+  width: 100%;
+  font-size: 2.5rem;
+
+}
+
+/*..copyright content..*/
+
+
+.copyright{
+  font-size: 1rem;
+  font-weight: 350;
+  margin-left: 40%;
+  margin-top: 10%;
+  width: 24%;
+  background-color: rgba(41, 102, 72, 0.1);
+  padding: 3px 3px 3px 7px;
+  border-radius: 10px;
+}
+
+
+/*..css for the top position hover..*/
+
+.top{
+  height: 30%;
+  width: 50%;
+  margin-top: -50%;
+  margin-left: 20%;
+  padding: 6px 10px 15px 10px;
+  border: 1px solid black;
+  border-radius: 10px;
+  font-size: 1rem;
+  background-color: rgba(83, 3, 47, 0.1);
+  
+}
+
+
+/*..css for the right position hover..*/
+
+
+.right{
+    height: 30%;
+    width: 50%;
+    margin-top:-22%;
+    margin-left: 105%;
+    padding: 6px 10px 15px 10px;
+    border: 1px solid black;
+    border-radius: 10px;
+    font-size: 1rem;
+    background-color: rgba(83, 3, 47, 0.1);
+}
+
+
+/*..css for the bottom position hover..*/
+
+.bottom{
+  height: 30%;
+  width: 50%;
+  margin-top: 5%;
+  margin-left: 20%;
+  padding: 6px 10px 15px 10px;
+  border: 1px solid black;
+  border-radius: 10px;
+  font-size: 1rem;
+  background-color: rgba(83, 3, 47, 0.1);
+}
+
+
+/*..csss for the left position hover..*/
+
+.left{
+  height: 30%;
+  width: 50%;
+  margin-top:-22%;
+  margin-left: -60%;
+  padding: 6px 10px 15px 10px;
+  border: 1px solid black;
+  border-radius: 10px;
+  font-size: 1rem;
+  background-color: rgba(83, 3, 47, 0.1);
+}
+.active{
+  background-color:rgba(170, 9, 44, 0.3) ;
 }
